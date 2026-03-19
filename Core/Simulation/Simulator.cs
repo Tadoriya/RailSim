@@ -334,8 +334,8 @@ namespace RailSim.Core.Simulation
             if (train.NextStationId != null)
             {
                 double dwell   = DwellTime(train);
-                // Le temps de départ intègre le dwell + une partie du retard courant (plafonné à 5 min)
-                double depTime = _now + dwell + Math.Min(train.CurrentDelayMinutes, 5.0);
+                // Le temps de départ intègre le dwell 
+                double depTime = _now + dwell ;
                 _queue.Enqueue(new SimEvent
                 {
                     TimeMinutes = depTime,
@@ -393,7 +393,7 @@ namespace RailSim.Core.Simulation
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("╔══════════════════════════════════════════╗");
-            Console.WriteLine("║   RailSim — Simulation + Optimisation   ║");
+            Console.WriteLine("║   RailSim — Simulation + Optimisation    ║");
             Console.WriteLine("╚══════════════════════════════════════════╝");
             Console.ResetColor();
             Console.WriteLine($"  Trains : {_trains.Count}  |  Optimisation : {(_config.EnableOptimization ? "ON" : "OFF")}");

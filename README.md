@@ -8,7 +8,7 @@ par recherche opérationnelle pour la gestion des conflits de circulation.
 
 ## Contexte
 
-Projet réalisé dans le cadre d'un stage / projet personnel en tant qu'étudiant
+Projet réalisé dans le cadre d'un projet personnel en tant qu'étudiant
 en 4ème année de développement logiciel. L'objectif est de modéliser la
 circulation de trains sur un réseau SNCF réel, de détecter les conflits
 potentiels et de les résoudre automatiquement via des heuristiques d'optimisation.
