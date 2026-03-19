@@ -572,6 +572,9 @@ namespace RailSim.Core.Database
             ExecuteNonQuery("DELETE FROM trains");
             ExecuteNonQuery("DELETE FROM segments");
             ExecuteNonQuery("DELETE FROM stations");
+            ExecuteNonQuery("DELETE FROM sqlite_sequence WHERE name='sim_results'");
+            ExecuteNonQuery("DELETE FROM sqlite_sequence WHERE name='sim_conflicts'");
+            
             Console.WriteLine("  [DB] Base réinitialisée.");
         }
 

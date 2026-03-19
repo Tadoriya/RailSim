@@ -9,7 +9,7 @@ Console.OutputEncoding = System.Text.Encoding.UTF8;
 // Réinitialise et recharge les données SNCF à chaque lancement
 // pour garantir un état propre de la base de données
 using var db = new RailSimDatabase("railsim.db");
-db.Reset();
+//db.Reset();
 db.SeedRealData();
 
 // ── 2. Charger réseau + trains depuis la BDD ──────────────────

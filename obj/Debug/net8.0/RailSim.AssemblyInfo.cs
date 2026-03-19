@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RailSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ac9f6ebc18149cc37686ed09e19f56c2e52f84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0e16bcb05d00d1d3b424949404c801d64912494")]
 [assembly: System.Reflection.AssemblyProductAttribute("RailSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RailSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
